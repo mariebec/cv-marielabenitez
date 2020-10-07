@@ -5,67 +5,223 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV - Mariela Benítez</title>
   <link rel="stylesheet" href="style.css">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Karla&family=Qwigley&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body class="bg-dark">
-  <!-- HEADER -->
-  <header class="mt-5 text-center">
-    <h1 class="h3 text-white">CV &middot; Mariela Benítez</h2>
-    <h2 class="h4 my-0 text-white">Front-end developer</h3>
-  </header>
-  <!-- /HEADER -->
 
-  <!-- MAIN -->
-  <main class="pt-3">
-    <section class="container">
-      <ul class="nav nav-pills mb-1" id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <a class="nav-link active d-flex flex-column align-items-center" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
-            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-            </svg>
-            <small class="d-none d-sm-block">Sobre mí</small>
-          </a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a class="nav-link d-flex flex-column align-items-center" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">
-            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-briefcase-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z"/>
-              <path fill-rule="evenodd" d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v1.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 5.884V4.5zm5-2A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z"/>
-            </svg>
-            <small class="d-none d-sm-block">Experiencia</small>
-          </a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a class="nav-link d-flex flex-column align-items-center" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">
-            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
-            </svg>
-            <small class="d-none d-sm-block">Contacto</small>
-          </a>
-        </li>
-      </ul>
+  <div class="general-container">
 
-      <div class="tab-content bg-white tab-container p-3 rounded" id="myTabContent">
-        <div class="tab-pane fade show active row" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-          <h3 class="col-12 col-md-11 offset-md-1">Sobre  mi</h3>
-          <p class="col-12 col-md-5 offset-md-1">Soy Front-end developer jr. y diseñadora industrial de nacionalidad paraguaya. Me apasiona trabajar con la tecnología y ponerla al servicio de las personas con el objetivo de mejorar la calidad de vida.</p>
-          <p class="col-12 col-md-5 offset-md-1">Me gusta estar en constante aprendizaje y experimentar con las habilidades nuevas que voy adquiriendo, ya que mi objetivo principal es alcanzar la mejor versión de mí misma como profesional y persona.</p>
+    <!-- HEADER -->
+    <header class="header my-4 my-lg-0 text-center d-flex flex-column justify-content-center animate__animated animate__zoomIn">
+      <p class="display-4 text-white alata">CV &middot; Mariela Benítez</p>
+      <p class="display-2 my-0 text-white handwrite">Front-end developer</p>
+    </header>
+    <!-- /HEADER -->
+  
+    <!-- MAIN -->
+    <main class="main d-flex flex-column d-flex align-items-center animate__animated animate__zoomIn">
+      <section class="content-container">
+        <ul class="nav nav-pills mb-1" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active d-flex flex-column align-items-center" id="pills-aboutme-tab" data-toggle="pill" href="#pills-aboutme" role="tab" aria-controls="pills-aboutme" aria-selected="true">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+              </svg>
+              <small class="d-none d-md-block text-font">Sobre mí</small>
+            </a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link d-flex flex-column align-items-center" id="pills-resume-tab" data-toggle="pill" href="#pills-resume" role="tab" aria-controls="pills-resume" aria-selected="false">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-layout-text-sidebar-reverse" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2 1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm12-1a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
+                <path fill-rule="evenodd" d="M5 15V1H4v14h1zm8-11.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5zm0 3a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5zm0 3a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5zm0 3a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5z"/>
+              </svg>
+              <small class="d-none d-md-block text-font">Curriculum</small>
+            </a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link d-flex flex-column align-items-center" id="pills-extra-tab" data-toggle="pill" href="#pills-extra" role="tab" aria-controls="pills-extra" aria-selected="false">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-asterisk" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1z"/>
+              </svg>
+              <small class="d-none d-md-block text-font">Otros</small>
+            </a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link d-flex flex-column align-items-center" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+              </svg>
+              <small class="d-none d-md-block text-font">Contacto</small>
+            </a>
+          </li>
+        </ul>
+  
+        <div class="tab-content bg-light p-3 px-md-5 pt-md-5 pb-md-3 shadow-lg rounded overflow-auto" id="myTabContent">
+          <!-- About me -->
+          <section class="tab-pane fade show active" id="pills-aboutme" role="tabpanel" aria-labelledby="pills-aboutme-tab">
+            <div class="row">
+              <h3 class="col-12 handwrite mb-4 mt-4 mt-md-0 display-1 text-secondary">Sobre mi</h3>
+              <div class="col-12 col-md-6">
+                <p class="alata mb-4 title"><span>| </span>Descripción</p>
+                <p class="text-font">Soy Front-end developer jr. y diseñadora industrial de nacionalidad paraguaya. Me apasiona trabajar con la tecnología y ponerla al servicio de las personas con el objetivo de mejorar la calidad de vida.</p>
+                <p class="text-font">Me gusta estar en constante aprendizaje y experimentar con las habilidades nuevas que voy adquiriendo, ya que mi objetivo principal es alcanzar la mejor versión de mí misma como profesional y persona.</p>
+              </div>
+            </div>
+          </section>
+          <!-- /About me -->
+
+          <!-- Experience and studies -->
+          <section class="tab-pane fade" id="pills-resume" role="tabpanel" aria-labelledby="pills-resume-tab">
+            <div class="row">
+              <h3 class="col-12 handwrite mb-2 mt-4 mt-md-0 display-2 text-secondary">Curriculum</h3>
+              
+              <div class="col-12 col-md-6">
+                <!-- Studies -->
+                <p class="alata title my-4"><span>| </span>Estudios</p>
+                <div class="d-flex row">
+                  <div class="col-1 line-container d-flex flex-column justify-content-between align-items-center">
+                    <div class="rounded-circle bg-dark circle"></div>
+                    <div class="line bg-dark h-100"></div>
+                  </div>
+                  <div class="col-10">
+                    <h6>Laboratoria</h6>
+                    <p>Desarrollo Front-end</p>
+                    <p>Febrero - setiembre 2020. (Lima, Perú)</p>
+                    <p class="mb-4">Consiste en un entrenamiento intensivo de 6 meses en desarrollo web (Front-end), que requirió adaptación rápida en un entorno de alta incertidumbre y aprendizaje continuo, tanto de habilidades técnicas como habilidades blandas.</p>
+                  </div>
+                </div>
+                <div class="d-flex row">
+                  <div class="col-1 line-container d-flex flex-column justify-content-between align-items-center">
+                    <div class="rounded-circle bg-dark circle"></div>
+                    <div class="line bg-dark h-100"></div>
+                    <!-- <div class="rounded-circle bg-dark circle"></div> -->
+                  </div>
+                  <div class="col-10">
+                    <h6>Universidad Nacional de Asunción</h6>
+                    <p>2010 - 2017. (Paraguay)</p>
+                    <p class="mb-0">Licenciatura en Diseño Industrial con mención en Diseño de Productos. </p>
+                  </div>
+                </div>
+                <!-- /Studies -->
+
+                <!-- Experience -->
+                <p class="alata title mt-5 mb-4"><span>| </span>Experiencia laboral</p>
+                <div class="experience d-flex row">
+                  <div class="col-1 line-container d-flex flex-column justify-content-between align-items-center">
+                    <div class="rounded-circle bg-dark circle"></div>
+                    <div class="line bg-dark h-100"></div>
+                  </div>
+                  <div class="col-10">
+                    <h6>Po Paraguay</h6>
+                    <p>Julio 2019 - actualidad. (Independiente remoto)</p>
+                    <p class="mb-4">Adaptación y personalización de prótesis de miembro superior mediante modelado 3D.</p>
+                  </div>
+                </div>
+                <div class="experience d-flex row mb-3">
+                  <div class="col-1 line-container d-flex flex-column justify-content-between align-items-center">
+                    <div class="rounded-circle bg-dark circle"></div>
+                    <div class="line bg-dark h-100"></div>
+                    <!-- <div class="rounded-circle bg-dark circle"></div> -->
+                  </div>
+                  <div class="col-10">
+                    <h6>Po Paraguay</h6>
+                    <p>Octubre 2015 - Febrero 2019. (Paraguay)</p>
+                    <p class="mb-0">A mi cargo estaba la investigación y desarrollo de prótesis para personas con amputación en miembro superior y también la adaptación de los dispositivos mediante modelado 3D.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- /Experience -->
+
+              <div class="col-12 col-md-6">
+                <p class="alata title my-4"><span>| </span>Habilidades técnicas</p>
+                <div class="technologies d-flex flex-wrap"></div>
+                <p class="alata title my-4"><span>| </span>Habilidades blandas</p>
+                <div class="d-flex flex-wrap">
+                  <p class="text-soft mr-5">Compromiso</p>
+                  <p class="text-soft mr-5">Trabajo en equipo</p>
+                  <p class="text-soft mr-5">Empatía</p>
+                  <p class="text-soft mr-5">Adaptabilidad</p>
+                  <p class="text-soft mr-5">Perseverancia</p>
+                  <p class="text-soft mr-5">Autoaprendizaje</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- /Experience and studies -->
+
+          <!-- Extra -->
+          <section class="tab-pane fade" id="pills-extra" role="tabpanel" aria-labelledby="pills-extra-tab">
+            <div class="row">
+              <h3 class="col-12 handwrite mt-4 mt-md-0 display-2 text-secondary">Otras informaciones</h3>
+              <div class="col-12 col-md-6">
+                <p class="alata mb-4 title"><span>| </span>Reconocimientos</p>
+                <p>IV Homenaje a la Mujer Paraguaya de Hoy. Noviembre 2018</p>
+                <p>Embajada Argentina en Paraguay, ONU Mujeres, Ministerio de la Mujer. </p>
+                <p>Reconocimiento obtenido en la categoría “Jóvenes”, por el desarrollo e innovación en el diseño de prótesis de miembro superior.</p>
+              </div>
+            </div>
+          </section>
+          <!-- /Extra -->
+
+          <!-- Contact -->
+          <section class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="row">
+              <h3 class="col-12 handwrite mt-4 mt-md-0 display-2 text-secondary">Contacto</h3>
+              <div class="col-12 col-md-5 d-flex flex-column contact">
+                <div class="d-flex flex-column mt-2 mt-md-0">
+                  <p class="alata subtitle my-2"><span>| </span>Teléfono</p>
+                  <div class="d-flex align-items-center">
+                    <i class="fas fa-phone-alt mr-2"></i>
+                    <span class="text-font">546546465</span>
+                  </div>
+                </div>
+                <div class="d-flex flex-column mt-4">
+                  <p class="alata subtitle my-2"><span>| </span>Correo electrónico</p>
+                  <div class="d-flex align-items-center">
+                    <i class="fas fa-envelope mr-2"></i>
+                    <span class="text-font">mariela.benitezc9@gmail.com</span>
+                  </div>
+                </div>
+                <div class="d-flex flex-column mt-4">
+                  <p class="alata subtitle my-2"><span>| </span>Ubicación</p>
+                  <div class="d-flex align-items-center">
+                    <i class="fas fa-map-marker-alt mr-2"></i>
+                    <span class="text-font">Chorrillos, Lima</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-5 d-flex flex-column contact">
+                <div class="d-flex flex-column mt-4 mt-md-0">
+                  <p class="alata subtitle my-2"><span>| </span>Perfil de linkedin</p>
+                  <a class="d-flex align-items-center" href="https://linkedin.com/in/marielabenitez/" target="_blank">
+                    <i class="fab fa-linkedin mr-2"></i>
+                    <span class="text-font">linkedin.com/in/marielabenitez/</span>
+                  </a>
+                </div>
+                <div class="d-flex flex-column mt-4">
+                  <p class="alata subtitle my-2"><span>| </span>Repositorio github</p>
+                  <a class="d-flex align-items-center" href="https://github.com/mariebec" target="_blank">
+                    <i class="fab fa-github mr-2"></i>
+                    <span class="text-font">github.com/mariebec</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- /Contact -->
+
         </div>
-        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-          Probando 2
-        </div>
-        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-          Probando 3
-        </div>
-      </div>
-    </section>
-  </main>
-  <!-- /MAIN -->
+      </section>
+    </main>
+    <!-- /MAIN -->
+  </div>
   
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
+  <script src="https://kit.fontawesome.com/fcc1bea60d.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
 </body>
 </html>
