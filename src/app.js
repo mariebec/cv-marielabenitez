@@ -101,6 +101,6 @@ arrTech.forEach((element) => {
       ${element.logo}
       <p class="text-font">${element.name}</p>
     </div>
-  `
+  `;
   techContainer.appendChild(eachTech);
 });

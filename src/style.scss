@@ -15,7 +15,7 @@ $enable-responsive-font-sizes: true;
 $component-active-color: #303841;
 $link-color: #303841;
 
-@import "./node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 .alata{
   font-family: 'Alata', sans-serif;;
@@ -61,6 +61,11 @@ li > a{
   &:hover{
     color: $minor-color;
   }
+}
+
+.resume h6{
+  font-size: 1.1rem;
+  line-height: 1.3rem;
 }
 
 .icon{
@@ -131,23 +136,24 @@ li > a{
     }
   }
 
+  /* Scrollbar */
   /* width */
-::-webkit-scrollbar {
-  width: 8px;
-}
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
 
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: $dark; 
-}
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $dark; 
+  }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: rgb(77, 77, 77); 
-}
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(77, 77, 77); 
+  }
 }

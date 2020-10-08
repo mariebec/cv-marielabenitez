@@ -10907,6 +10907,11 @@ li > a:hover {
   color: #789F07;
 }
 
+.resume h6 {
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+}
+
 .icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10975,6 +10980,7 @@ li > a:hover {
   .general-container .content-container {
     width: 75%;
   }
+  /* Scrollbar */
   /* width */
   ::-webkit-scrollbar {
     width: 8px;
